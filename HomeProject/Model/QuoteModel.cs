@@ -10,7 +10,7 @@ namespace HomeProject.Model
     }
     
     /// <summary>
-    /// Class to return xml model
+    /// Class to return xml model I kept the name as XML because we need XML as root element
     /// </summary>
     public class XML
     {

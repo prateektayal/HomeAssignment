@@ -14,7 +14,7 @@ namespace HomeProject.Controllers
     {
 
         /// <summary>
-        /// Method to Get the total count of cartons
+        /// Method to Get the total for package
         /// </summary>
         /// <param name="warehouseModel">WarehouseModel object</param>
         /// <returns>Action Result with total as json object</returns>
