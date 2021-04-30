@@ -1,0 +1,62 @@
+D:\Task\HomeProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Task\HomeProject\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.exe
+D:\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.deps.json
+D:\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.runtimeconfig.json
+D:\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.runtimeconfig.dev.json
+D:\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.dll
+D:\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.pdb
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.csprojAssemblyReference.cache
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.AssemblyInfoInputs.cache
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.AssemblyInfo.cs
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.csproj.CoreCompileInputs.cache
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.MvcApplicationPartsAssemblyInfo.cache
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\staticwebassets\HomeProject.StaticWebAssets.Manifest.cache
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\staticwebassets\HomeProject.StaticWebAssets.xml
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\HomeProject.styles.css
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.RazorTargetAssemblyInfo.cache
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.dll
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.pdb
+D:\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.genruntimeconfig.cache
+D:\Task Doc\Task\Task\HomeProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Task Doc\Task\Task\HomeProject\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Task Doc\Task\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.exe
+D:\Task Doc\Task\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.deps.json
+D:\Task Doc\Task\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.runtimeconfig.json
+D:\Task Doc\Task\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.runtimeconfig.dev.json
+D:\Task Doc\Task\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.dll
+D:\Task Doc\Task\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.pdb
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.csprojAssemblyReference.cache
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.AssemblyInfoInputs.cache
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.AssemblyInfo.cs
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.csproj.CoreCompileInputs.cache
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.MvcApplicationPartsAssemblyInfo.cache
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\staticwebassets\HomeProject.StaticWebAssets.Manifest.cache
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\staticwebassets\HomeProject.StaticWebAssets.xml
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\HomeProject.styles.css
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.RazorTargetAssemblyInfo.cache
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.dll
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.pdb
+D:\Task Doc\Task\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.genruntimeconfig.cache
+D:\Task Doc\Task\Project\Task\HomeProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Task Doc\Task\Project\Task\HomeProject\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Task Doc\Task\Project\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.exe
+D:\Task Doc\Task\Project\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.deps.json
+D:\Task Doc\Task\Project\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.runtimeconfig.json
+D:\Task Doc\Task\Project\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.runtimeconfig.dev.json
+D:\Task Doc\Task\Project\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.dll
+D:\Task Doc\Task\Project\Task\HomeProject\bin\Debug\netcoreapp3.1\HomeProject.pdb
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.csprojAssemblyReference.cache
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.AssemblyInfoInputs.cache
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.AssemblyInfo.cs
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.csproj.CoreCompileInputs.cache
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.MvcApplicationPartsAssemblyInfo.cache
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\staticwebassets\HomeProject.StaticWebAssets.Manifest.cache
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\staticwebassets\HomeProject.StaticWebAssets.xml
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\HomeProject.styles.css
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.RazorTargetAssemblyInfo.cache
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.dll
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.pdb
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.genruntimeconfig.cache
+D:\Task Doc\Task\Project\Task\HomeProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Task Doc\Task\Project\Task\HomeProject\obj\Debug\netcoreapp3.1\HomeProject.csproj.CopyComplete
