@@ -1,6 +1,6 @@
 ﻿namespace HomeProject.Model
 {
-    public class Dimension
+    public class DimensionModel
     {
         public int Height { get; set; }
 

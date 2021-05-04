@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Task Doc\\Task\\Project\\Task\\HomeProject\\HomeProject.csproj": {}
+    "D:\\Task Doc\\Assignment\\HomeAssignment\\HomeProject\\HomeProject.csproj": {}
   },
   "projects": {
-    "D:\\Task Doc\\Task\\Project\\Task\\HomeProject\\HomeProject.csproj": {
+    "D:\\Task Doc\\Assignment\\HomeAssignment\\HomeProject\\HomeProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Task Doc\\Task\\Project\\Task\\HomeProject\\HomeProject.csproj",
+        "projectUniqueName": "D:\\Task Doc\\Assignment\\HomeAssignment\\HomeProject\\HomeProject.csproj",
         "projectName": "HomeProject",
-        "projectPath": "D:\\Task Doc\\Task\\Project\\Task\\HomeProject\\HomeProject.csproj",
+        "projectPath": "D:\\Task Doc\\Assignment\\HomeAssignment\\HomeProject\\HomeProject.csproj",
         "packagesPath": "C:\\Users\\Daffolap-686\\.nuget\\packages\\",
-        "outputPath": "D:\\Task Doc\\Task\\Project\\Task\\HomeProject\\obj\\",
+        "outputPath": "D:\\Task Doc\\Assignment\\HomeAssignment\\HomeProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",

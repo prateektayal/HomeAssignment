@@ -6,7 +6,7 @@ namespace HomeProject.Model
     {
         public AddressModel Source { get; set; }
         public AddressModel Destination { get; set; }
-        public IList<Dimension> Packages { get; set; }
+        public IList<DimensionModel> Packages { get; set; }
     }
     
     /// <summary>

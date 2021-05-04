@@ -6,6 +6,6 @@ namespace HomeProject.Model
     {
         public AddressModel Consignee { get; set; }
         public AddressModel Consignor { get; set; }
-        public IList<Dimension> Cartons { get; set; }
+        public IList<DimensionModel> Cartons { get; set; }
     }
 }

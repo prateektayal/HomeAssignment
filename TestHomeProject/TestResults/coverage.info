@@ -1,0 +1,405 @@
+SF:D:\Task Doc\Assignment\HomeAssignment\HomeProject\Program.cs
+FN:14,System.Void HomeProject.Program::Main(System.String[])
+FNDA:0,System.Void HomeProject.Program::Main(System.String[])
+DA:15,0
+DA:16,0
+DA:17,0
+FN:19,Microsoft.Extensions.Hosting.IHostBuilder HomeProject.Program::CreateHostBuilder(System.String[])
+FNDA:0,Microsoft.Extensions.Hosting.IHostBuilder HomeProject.Program::CreateHostBuilder(System.String[])
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+LF:8
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:D:\Task Doc\Assignment\HomeAssignment\HomeProject\Startup.cs
+FN:22,Microsoft.Extensions.Configuration.IConfiguration HomeProject.Startup::get_Configuration()
+FNDA:0,Microsoft.Extensions.Configuration.IConfiguration HomeProject.Startup::get_Configuration()
+DA:23,0
+FN:26,System.Void HomeProject.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:0,System.Void HomeProject.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:27,0
+DA:28,0
+DA:30,0
+DA:31,0
+FN:34,System.Void HomeProject.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+FNDA:0,System.Void HomeProject.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:41,0
+DA:43,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+BRDA:36,9,0,0
+BRDA:36,9,1,0
+FN:17,System.Void HomeProject.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:0,System.Void HomeProject.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+LF:22
+LH:0
+BRF:2
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:D:\Task Doc\Assignment\HomeAssignment\HomeProject\Model\AddressModel.cs
+FN:9,System.String HomeProject.Model.AddressModel::get_Address()
+FNDA:13,System.String HomeProject.Model.AddressModel::get_Address()
+DA:10,13
+FN:12,System.String HomeProject.Model.AddressModel::get_City()
+FNDA:13,System.String HomeProject.Model.AddressModel::get_City()
+DA:13,13
+FN:15,System.String HomeProject.Model.AddressModel::get_State()
+FNDA:13,System.String HomeProject.Model.AddressModel::get_State()
+DA:16,13
+FN:18,System.String HomeProject.Model.AddressModel::get_ZipCode()
+FNDA:13,System.String HomeProject.Model.AddressModel::get_ZipCode()
+DA:19,13
+FN:21,System.String HomeProject.Model.AddressModel::get_ContactNumber()
+FNDA:13,System.String HomeProject.Model.AddressModel::get_ContactNumber()
+DA:22,13
+LF:5
+LH:5
+BRF:0
+BRH:0
+FNF:5
+FNH:5
+end_of_record
+SF:D:\Task Doc\Assignment\HomeAssignment\HomeProject\Model\CarrierQuoteModel.cs
+FN:4,System.String HomeProject.Model.CarrierQuoteModel::get_Name()
+FNDA:0,System.String HomeProject.Model.CarrierQuoteModel::get_Name()
+DA:5,0
+FN:5,System.Single HomeProject.Model.CarrierQuoteModel::get_Amount()
+FNDA:0,System.Single HomeProject.Model.CarrierQuoteModel::get_Amount()
+DA:6,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:D:\Task Doc\Assignment\HomeAssignment\HomeProject\Model\ConsignmentModel.cs
+FN:6,HomeProject.Model.AddressModel HomeProject.Model.ConsignmentModel::get_Consignee()
+FNDA:3,HomeProject.Model.AddressModel HomeProject.Model.ConsignmentModel::get_Consignee()
+DA:7,3
+FN:7,HomeProject.Model.AddressModel HomeProject.Model.ConsignmentModel::get_Consignor()
+FNDA:3,HomeProject.Model.AddressModel HomeProject.Model.ConsignmentModel::get_Consignor()
+DA:8,3
+FN:8,System.Collections.Generic.IList`1<HomeProject.Model.DimensionModel> HomeProject.Model.ConsignmentModel::get_Cartons()
+FNDA:8,System.Collections.Generic.IList`1<HomeProject.Model.DimensionModel> HomeProject.Model.ConsignmentModel::get_Cartons()
+DA:9,8
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:D:\Task Doc\Assignment\HomeAssignment\HomeProject\Model\DimensionModel.cs
+FN:4,System.Int32 HomeProject.Model.DimensionModel::get_Height()
+FNDA:26,System.Int32 HomeProject.Model.DimensionModel::get_Height()
+DA:5,26
+FN:6,System.Int32 HomeProject.Model.DimensionModel::get_Width()
+FNDA:26,System.Int32 HomeProject.Model.DimensionModel::get_Width()
+DA:7,26
+FN:8,System.Int32 HomeProject.Model.DimensionModel::get_NoOfCartons()
+FNDA:26,System.Int32 HomeProject.Model.DimensionModel::get_NoOfCartons()
+DA:9,26
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:D:\Task Doc\Assignment\HomeAssignment\HomeProject\Model\QuoteModel.cs
+FN:6,HomeProject.Model.AddressModel HomeProject.Model.QuoteModel::get_Source()
+FNDA:1,HomeProject.Model.AddressModel HomeProject.Model.QuoteModel::get_Source()
+DA:7,1
+FN:7,HomeProject.Model.AddressModel HomeProject.Model.QuoteModel::get_Destination()
+FNDA:1,HomeProject.Model.AddressModel HomeProject.Model.QuoteModel::get_Destination()
+DA:8,1
+FN:8,System.Collections.Generic.IList`1<HomeProject.Model.DimensionModel> HomeProject.Model.QuoteModel::get_Packages()
+FNDA:6,System.Collections.Generic.IList`1<HomeProject.Model.DimensionModel> HomeProject.Model.QuoteModel::get_Packages()
+DA:9,6
+FN:16,System.Single HomeProject.Model.XML::get_Quote()
+FNDA:3,System.Single HomeProject.Model.XML::get_Quote()
+DA:17,3
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:D:\Task Doc\Assignment\HomeAssignment\HomeProject\Model\WarehouseModel.cs
+FN:6,HomeProject.Model.AddressModel HomeProject.Model.WarehouseModel::get_ContactAddress()
+FNDA:3,HomeProject.Model.AddressModel HomeProject.Model.WarehouseModel::get_ContactAddress()
+DA:7,3
+FN:7,HomeProject.Model.AddressModel HomeProject.Model.WarehouseModel::get_WarehouseAddress()
+FNDA:3,HomeProject.Model.AddressModel HomeProject.Model.WarehouseModel::get_WarehouseAddress()
+DA:8,3
+FN:8,System.Collections.Generic.IList`1<HomeProject.Model.DimensionModel> HomeProject.Model.WarehouseModel::get_PackageDimensions()
+FNDA:8,System.Collections.Generic.IList`1<HomeProject.Model.DimensionModel> HomeProject.Model.WarehouseModel::get_PackageDimensions()
+DA:9,8
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:D:\Task Doc\Assignment\HomeAssignment\HomeProject\Controllers\HomeController.cs
+FN:24,System.Void HomeProject.Controllers.HomeController::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:10,System.Void HomeProject.Controllers.HomeController::.ctor(Microsoft.Extensions.Configuration.IConfiguration)
+DA:25,10
+DA:27,10
+DA:29,10
+DA:30,10
+DA:31,10
+DA:32,10
+FN:53,<>f__AnonymousType0`2<System.Int32,HomeProject.Model.DimensionModel> HomeProject.Controllers.HomeController/<>c::<GetCarrier1Quote>b__4_0(HomeProject.Model.DimensionModel,System.Int32)
+FNDA:18,<>f__AnonymousType0`2<System.Int32,HomeProject.Model.DimensionModel> HomeProject.Controllers.HomeController/<>c::<GetCarrier1Quote>b__4_0(HomeProject.Model.DimensionModel,System.Int32)
+DA:54,18
+FN:84,<>f__AnonymousType0`2<System.Int32,HomeProject.Model.DimensionModel> HomeProject.Controllers.HomeController/<>c::<GetCarrier2Quote>b__5_0(HomeProject.Model.DimensionModel,System.Int32)
+FNDA:18,<>f__AnonymousType0`2<System.Int32,HomeProject.Model.DimensionModel> HomeProject.Controllers.HomeController/<>c::<GetCarrier2Quote>b__5_0(HomeProject.Model.DimensionModel,System.Int32)
+DA:85,18
+FN:121,<>f__AnonymousType0`2<System.Int32,HomeProject.Model.DimensionModel> HomeProject.Controllers.HomeController/<>c::<GetCarrier3Quote>b__6_0(HomeProject.Model.DimensionModel,System.Int32)
+FNDA:18,<>f__AnonymousType0`2<System.Int32,HomeProject.Model.DimensionModel> HomeProject.Controllers.HomeController/<>c::<GetCarrier3Quote>b__6_0(HomeProject.Model.DimensionModel,System.Int32)
+DA:122,18
+FN:46,System.Void HomeProject.Controllers.HomeController/<GetCarrier1Quote>d__4::MoveNext()
+FNDA:4,System.Void HomeProject.Controllers.HomeController/<GetCarrier1Quote>d__4::MoveNext()
+DA:47,4
+DA:48,4
+DA:49,4
+DA:50,2
+DA:51,2
+DA:52,2
+DA:55,4
+DA:56,4
+DA:57,4
+DA:60,2
+DA:61,2
+DA:63,0
+DA:65,2
+DA:66,4
+BRDA:49,25,0,3
+BRDA:49,25,1,1
+BRDA:49,46,0,2
+BRDA:51,70,0,2
+BRDA:54,238,1,4
+BRDA:54,238,0,2
+BRDA:51,70,1,0
+BRDA:49,46,1,2
+FN:77,System.Void HomeProject.Controllers.HomeController/<GetCarrier2Quote>d__5::MoveNext()
+FNDA:4,System.Void HomeProject.Controllers.HomeController/<GetCarrier2Quote>d__5::MoveNext()
+DA:78,4
+DA:79,4
+DA:80,4
+DA:81,2
+DA:82,2
+DA:83,2
+DA:86,4
+DA:87,4
+DA:88,4
+DA:91,2
+DA:95,2
+DA:96,2
+DA:98,0
+DA:100,2
+DA:101,4
+BRDA:80,25,0,3
+BRDA:80,25,1,1
+BRDA:80,46,0,2
+BRDA:82,70,0,2
+BRDA:85,238,1,4
+BRDA:85,238,0,2
+BRDA:82,70,1,0
+BRDA:80,46,1,2
+FN:114,System.Void HomeProject.Controllers.HomeController/<GetCarrier3Quote>d__6::MoveNext()
+FNDA:4,System.Void HomeProject.Controllers.HomeController/<GetCarrier3Quote>d__6::MoveNext()
+DA:115,4
+DA:116,4
+DA:117,4
+DA:118,2
+DA:119,2
+DA:120,2
+DA:123,4
+DA:124,4
+DA:125,4
+DA:127,2
+DA:128,2
+DA:129,2
+DA:131,0
+DA:133,2
+DA:134,4
+BRDA:117,25,0,3
+BRDA:117,25,1,1
+BRDA:117,46,0,2
+BRDA:119,70,0,2
+BRDA:122,238,1,4
+BRDA:122,238,0,2
+BRDA:119,70,1,0
+BRDA:117,46,1,2
+FN:145,System.Void HomeProject.Controllers.HomeController/<GetBestQuote>d__7::MoveNext()
+FNDA:1,System.Void HomeProject.Controllers.HomeController/<GetBestQuote>d__7::MoveNext()
+DA:146,1
+DA:147,1
+DA:149,1
+DA:152,1
+DA:153,1
+DA:154,1
+DA:155,1
+DA:158,1
+DA:159,1
+DA:161,1
+DA:162,0
+DA:163,1
+DA:164,1
+DA:165,1
+DA:166,1
+DA:168,1
+DA:170,1
+FN:181,System.Void HomeProject.Controllers.HomeController/<RunApisAsync>d__8::MoveNext()
+FNDA:1,System.Void HomeProject.Controllers.HomeController/<RunApisAsync>d__8::MoveNext()
+DA:182,1
+DA:183,1
+DA:184,1
+DA:185,9
+DA:186,3
+DA:187,3
+DA:188,3
+DA:189,1
+DA:190,0
+DA:191,0
+BRDA:185,132,1,3
+BRDA:185,132,0,1
+FN:199,System.Void HomeProject.Controllers.HomeController/<ExecuteUrlAsync>d__9::MoveNext()
+FNDA:3,System.Void HomeProject.Controllers.HomeController/<ExecuteUrlAsync>d__9::MoveNext()
+DA:200,3
+DA:201,3
+DA:204,1
+DA:205,1
+DA:206,1
+DA:207,1
+DA:208,1
+DA:209,1
+DA:210,1
+DA:211,1
+DA:212,1
+DA:213,1
+DA:214,1
+DA:215,1
+DA:216,1
+DA:218,1
+DA:219,1
+DA:220,1
+DA:221,1
+DA:222,1
+DA:223,1
+DA:224,1
+DA:225,1
+DA:227,1
+DA:228,1
+DA:229,1
+DA:230,1
+DA:231,1
+DA:232,1
+DA:235,1
+DA:236,0
+DA:237,0
+DA:238,0
+DA:239,0
+DA:240,0
+DA:241,0
+DA:242,0
+DA:243,0
+DA:244,0
+DA:248,1
+DA:249,1
+DA:250,1
+DA:251,1
+DA:252,1
+DA:253,1
+DA:254,1
+DA:255,1
+DA:256,1
+DA:257,1
+DA:258,1
+DA:259,1
+DA:260,1
+DA:263,1
+DA:264,1
+DA:265,1
+DA:266,1
+DA:267,1
+DA:268,1
+DA:269,1
+DA:270,1
+DA:272,1
+DA:273,1
+DA:274,1
+DA:275,1
+DA:276,1
+DA:277,1
+DA:279,1
+DA:281,0
+DA:282,0
+DA:283,0
+DA:284,0
+DA:285,0
+DA:286,0
+DA:287,0
+DA:288,0
+DA:289,0
+DA:293,1
+DA:294,1
+DA:295,1
+DA:296,1
+DA:297,1
+DA:298,1
+DA:299,1
+DA:300,1
+DA:301,1
+DA:303,1
+DA:304,0
+DA:305,0
+DA:306,0
+DA:307,0
+DA:308,0
+DA:309,0
+DA:310,0
+DA:311,0
+DA:312,0
+DA:313,0
+DA:316,0
+BRDA:201,107,0,2
+BRDA:201,120,0,1
+BRDA:201,107,1,1
+BRDA:201,120,1,1
+BRDA:201,136,1,1
+BRDA:201,136,0,0
+LF:177
+LH:142
+BRF:32
+BRH:28
+FNF:10
+FNH:10
+end_of_record
