@@ -53,7 +53,7 @@ namespace HomeProject.Controllers
                     // Loop to calculate the amount on the basis of height, width and number of cartons requested 
                     foreach (var dimension in warehouseModel.PackageDimensions.Select((value, index) => new { index, value }))
                     {
-                        total = total + (dimension.value.NoOfCartons * dimension.value.Height * dimension.value.Width);
+                        total += (dimension.value.NoOfCartons * dimension.value.Height * dimension.value.Width);
                     }
 
                     //Creating json object that will retrun total with property name as "total"
@@ -84,7 +84,7 @@ namespace HomeProject.Controllers
                     // Loop to calculate the amount on the basis of height, width and number of cartons requested 
                     foreach (var carton in consignmentModel.Cartons.Select((value, index) => new { index, value }))
                     {
-                        amount = amount + (carton.value.NoOfCartons * carton.value.Height * carton.value.Width);
+                        amount += (carton.value.NoOfCartons * carton.value.Height * carton.value.Width);
                     }
 
                     //Creating json object that will retrun amount with property name as "amount"
@@ -121,7 +121,7 @@ namespace HomeProject.Controllers
                     // Loop to calculate the amount on the basis of height, width and number of cartons requested 
                     foreach (var package in quoteModel.Packages.Select((value, index) => new { index, value }))
                     {
-                        quoteAmount = quoteAmount + (package.value.NoOfCartons * package.value.Height * package.value.Width);
+                        quoteAmount += (package.value.NoOfCartons * package.value.Height * package.value.Width);
                     }
 
                     XML xml = new XML();
@@ -167,8 +167,8 @@ namespace HomeProject.Controllers
 
             CarrierBestDealModel carrierBestDealModel = new CarrierBestDealModel();
             carrierBestDealModel.Carriers = carrierQuoteList;
-            if(carrierQuoteList.Count > 0)
-            carrierBestDealModel.BestDeal = carrierQuoteList.FirstOrDefault(x => x.Amount == carrierQuoteList.Min(y => y.Amount));
+            if (carrierQuoteList.Count > 0)
+                carrierBestDealModel.BestDeal = carrierQuoteList.FirstOrDefault(x => x.Amount == carrierQuoteList.Min(y => y.Amount));
 
             return Ok(carrierBestDealModel);
         }

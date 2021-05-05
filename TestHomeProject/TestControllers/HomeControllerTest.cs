@@ -24,7 +24,7 @@ namespace TestHomeProject.TestControllers
         /// Method to check for null object and Bad request assert
         /// </summary>
         [Fact]
-        private void Test_GetCartonsCount_Null()
+        private void Test_GetCarrier1Quote_Null()
         {
             //Arrange
             HomeController homeController = new HomeController(mock.Object);
@@ -39,7 +39,7 @@ namespace TestHomeProject.TestControllers
         /// Method to test invalid model object
         /// </summary>
         [Fact]
-        private void Test_GetCartonsCount_InValid()
+        private void Test_GetCarrier1Quote_InValid()
         {
             //Arrange
             HomeController homeController = new HomeController(mock.Object);
@@ -53,10 +53,28 @@ namespace TestHomeProject.TestControllers
         }
 
         /// <summary>
+        /// Method to test invalid model object for not bad request
+        /// </summary>
+        [Fact]
+        private void Test_GetCarrier1Quote_InValidModelState()
+        {
+            //Arrange
+            HomeController homeController = new HomeController(mock.Object);
+            var payload = new WarehouseModel();
+            payload.PackageDimensions = new List<DimensionModel>();
+            homeController.ModelState.AddModelError("Address", "Address is required");
+
+            // Act
+            var result = homeController.GetCarrier1Quote(payload);
+            // Assert
+            Assert.IsType<ConflictObjectResult>(result.Result);
+        }
+
+        /// <summary>
         /// Method to test valid data and ok result
         /// </summary>
         [Fact]
-        private async Task Test_GetCartonsCount_Valid()
+        private async Task Test_GetCarrier1Quote_Valid()
         {
             //Arrange
             HomeController homeController = new HomeController(mock.Object);
@@ -109,7 +127,7 @@ namespace TestHomeProject.TestControllers
         /// Method to check for null object and Bad request assert
         /// </summary>
         [Fact]
-        private void Test_GetCartonAmount_Null()
+        private void Test_GetCarrier2Quote_Null()
         {
             //Arrange
             HomeController homeController = new HomeController(mock.Object);
@@ -124,7 +142,7 @@ namespace TestHomeProject.TestControllers
         /// Method to test invalid model object
         /// </summary>
         [Fact]
-        private void Test_GetCartonAmount_InValid()
+        private void Test_GetCarrier2Quote_InValid()
         {
             //Arrange
             HomeController homeController = new HomeController(mock.Object);
@@ -137,10 +155,28 @@ namespace TestHomeProject.TestControllers
         }
 
         /// <summary>
+        /// Method to test invalid model object for not bad request
+        /// </summary>
+        [Fact]
+        private void Test_GetCarrier2Quote_InValidModelState()
+        {
+            //Arrange
+            HomeController homeController = new HomeController(mock.Object);
+            var payload = new ConsignmentModel();
+            payload.Cartons = new List<DimensionModel>();
+            homeController.ModelState.AddModelError("Address", "Address is required");
+
+            // Act
+            var result = homeController.GetCarrier2Quote(payload);
+            // Assert
+            Assert.IsType<ConflictObjectResult>(result.Result);
+        }
+
+        /// <summary>
         /// Method to test valid data and ok result
         /// </summary>
         [Fact]
-        private async Task Test_GetCartonAmount_Valid()
+        private async Task Test_GetCarrier2Quote_Valid()
         {
             //Arrange
             HomeController homeController = new HomeController(mock.Object);
@@ -193,7 +229,7 @@ namespace TestHomeProject.TestControllers
         /// Method to check for null object and Bad request assert
         /// </summary>
         [Fact]
-        private void Test_GetQuote_Null()
+        private void Test_GetCarrier3Quote_Null()
         {
             //Arrange
             HomeController homeController = new HomeController(mock.Object);
@@ -208,7 +244,7 @@ namespace TestHomeProject.TestControllers
         /// Method to test invalid model object
         /// </summary>
         [Fact]
-        private void Test_GetQuote_InValid()
+        private void Test_GetCarrier3Quote_InValid()
         {
             //Arrange
             HomeController homeController = new HomeController(mock.Object);
@@ -221,10 +257,28 @@ namespace TestHomeProject.TestControllers
         }
 
         /// <summary>
+        /// Method to test invalid model object for not bad request
+        /// </summary>
+        [Fact]
+        private void Test_GetCarrier3Quote_InValidModelState()
+        {
+            //Arrange
+            HomeController homeController = new HomeController(mock.Object);
+            var payload = new QuoteModel();
+            payload.Packages = new List<DimensionModel>();
+            homeController.ModelState.AddModelError("Address", "Address is required");
+
+            // Act
+            var result = homeController.GetCarrier3Quote(payload);
+            // Assert
+            Assert.IsType<ConflictObjectResult>(result.Result);
+        }
+
+        /// <summary>
         /// Method to test valid data and ok result
         /// </summary>
         [Fact]
-        private async Task Test_GetQuote_Valid()
+        private async Task Test_GetCarrier3Quote_Valid()
         {
             //Arrange
             HomeController homeController = new HomeController(mock.Object);
